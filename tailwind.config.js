@@ -12,11 +12,15 @@ module.exports = {
     extend: {
       animation: {
         'anime': 'animate 8s linear infinite',
+        'type': 'animate 4s steps(12)'
       },
       keyframes: {
         animate: {
           '0%, 10%, 100%': { width: '0%' },
           '60%, 80%': { width: '100%' },
+        },
+        typing: {
+          from: { width: '0%'}
         }
       },
       colors: {
