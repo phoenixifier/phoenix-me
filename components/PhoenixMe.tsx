@@ -34,9 +34,9 @@ const Phoenix = () => {
                                     src="/img/avatar.png" height={200} width={200} alt="Avatar"
                                 />
 
-                                <div className="w-px bg-reddish h-[250px] mx-5 ml-[90px]"></div>
+                                <div className="w-px bg-reddish h-[250px] mx-5 ml-[95px]"></div>
 
-                                <button className="border border-reddish p-2 w-[100px] ml-[40px]">
+                                <button className="border border-reddish p-2 w-[100px] ml-[45px]">
                                     Send Message
                                 </button>
                             </div>
@@ -51,13 +51,15 @@ const Phoenix = () => {
                                         - Phoenix - which symbolizes my way of life. <br/><br/>
                                         <span className="text-reddish">Now feel free to research my profile!</span>
                                     </p>
+
                                 </div>
                                 <div className="flex justify-start items-center w-[900px] h-[400px] ml-[80px] gap-10">
-                                        <Image src="/img/gray-phoenix.svg" height={250} width={250} alt="Phoenix 1"/>
-                                        <Image src="/img/gray-phoenix.svg" height={200} width={200} alt="Phoenix 2"/>
-                                        <Image src="/img/gray-phoenix.svg" height={150} width={150} alt="Phoenix 3"/>
-                                        <Image className="hidden" src="/img/gray-phoenix.svg" height={150} width={150} alt="Phoenix 4"/>
-                                        <Image className="hidden" src="/img/gray-phoenix.svg" height={150} width={150} alt="Phoenix 5"/>
+                                    <Image className="cursor-pointer" src="/img/gray-phoenix.svg" height={250} width={250} alt="Phoenix 1"/>
+                                    <Image className="cursor-pointer" src="/img/gray-phoenix.svg" height={200} width={200} alt="Phoenix 2"/>
+                                    <Image className="cursor-pointer" src="/img/gray-phoenix.svg" height={150} width={150} alt="Phoenix 3"/>
+                                    <Image className="cursor-pointer ml-[50px] text-red-500 hover:red-900" src="/img/arrow-right.svg" height={24} width={24} alt="Arrow"/>
+                                    <Image className="hidden cursor-pointer" src="/img/gray-phoenix.svg" height={150} width={150} alt="Phoenix 4"/>
+                                    <Image className="hidden cursor-pointer" src="/img/gray-phoenix.svg" height={150} width={150} alt="Phoenix 5"/>
                                 </div>
                             </div>
                         </div>
